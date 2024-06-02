@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-# %% [markdown]
-# # MICROSOFT MOVIE STUDIO ANALYSIS
+
+
+# MICROSOFT MOVIE STUDIO ANALYSIS
 
 # %% [markdown]
 # ## Business Understanding
