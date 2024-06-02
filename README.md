@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-# %% [markdown]
-# # MICROSOFT MOVIE STUDIO ANALYSIS
 
-# %% [markdown]
-# ## Business Understanding
+# MICROSOFT MOVIE STUDIO ANALYSIS
+
+
+# Business Understanding
 
 # %% [markdown]
 # Microsoft is looking into starting a new movie studio and since they do not have any experience with movie studios, this project is aimed at analysing which films are currently doing the best at the box office to come up with recommendations for Microsoft as it starts its first movie studio.
