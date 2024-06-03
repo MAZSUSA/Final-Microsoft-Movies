@@ -8,15 +8,15 @@ Microsoft is looking into starting a new movie studio and since they do not have
 
 This data comes from various data files : [bom.movie_gross.csv.gz and tmdb.csv](file:///tmp/dsc-phase-1-project-v2-4/zippedData/bom.movie_gross.csv.gz)[ as well ](file:///tmp/dsc-phase-1-project-v2-4/zippedData/tmdb.movies.csv.gz)as im.db In [order to ](file:///tmp/dsc-phase-1-project-v2-4/zippedData/im.db.zip)carry out the data analysis, the first step is choosing the data we want to work with depending on the information we want to analyse. In this case what we need includes
 
-![ref1] Film release dates
+- Film release dates
 
 - genre
 
-![ref1] budget
+- budget
 
 - movie ratings
 
-![ref1] box office gross(domestic and international)
+- box office gross(domestic and international)
 
 In [1]: *# import of my modules![ref2]*
 
