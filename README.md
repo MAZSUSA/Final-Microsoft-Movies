@@ -219,7 +219,7 @@ From the above calculations and visualization, the following conclusions can be 
 - Another comparison on popularity can be in terms of the season when is it best to release the movie. The highest popularity values are concentrated in specific periods, such as late April 2018 and late October 2014. The pattern might suggest that movies released during certain times of the year (e.g., spring or fall) could have higher popularity, potentially due to factors like holidays, school vacations, or award season considerations.
 - Comparing the production budget and the worldwide gross to know whether there is any return on investment, to calculate the Return on Investment (ROI) for movies,The ROI values vary across the movies. Some movies with high production budgets also have high normalized ROI (e.g., Avatar), indicating they generated a significant return on investment compared to their production costs. Other movies might have high production budgets but lower ROI (e.g., Dark Phoenix), suggesting they may not have recouped their costs as effectively.
 
-Recommendations to Microsoft:
+## Recommendations to Microsoft:
 
 - Focus on established and popular genres: Superhero films are a proven box-office draw, but other established genres like action, animation, or sci-fi with strong narratives can also be successful.
 - Focus release dates based on seasons such as holidays,The highest popularity values are concentrated in specific periods, such as late April 2018 and late October 2014.The pattern might suggest that movies released during certain times of the year (e.g., spring or fall) could have higher popularity, potentially due to factors like holidays, school vacations, or award season considerations.
