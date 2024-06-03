@@ -1,10 +1,10 @@
-MICROSOFT MOVIE STUDIO ANALYSIS
+# MICROSOFT MOVIE STUDIO ANALYSIS
 
-Business Understanding
+## Business Understanding
 
 Microsoft is looking into starting a new movie studio and since they do not have any experience with movie studios, this project is aimed at analysing which films are currently doing the best at the box office to come up with recommendations for Microsoft as it starts its first movie studio.
 
-Data Source and Exploration
+## Data Source and Exploration
 
 This data comes from various data files : [bom.movie_gross.csv.gz and tmdb.csv](file:///tmp/dsc-phase-1-project-v2-4/zippedData/bom.movie_gross.csv.gz)[ as well ](file:///tmp/dsc-phase-1-project-v2-4/zippedData/tmdb.movies.csv.gz)as im.db In [order to ](file:///tmp/dsc-phase-1-project-v2-4/zippedData/im.db.zip)carry out the data analysis, the first step is choosing the data we want to work with depending on the information we want to analyse. In this case what we need includes
 
@@ -48,7 +48,7 @@ Out[2]: **title studio domestic\_gross foreign\_gross year**
 |**8**|Despicable Me|Uni.|251500000\.0|291600000|2010|
 |**9**|How to Train Your Dragon|P/DW|217600000\.0|277300000|2010|
 
-Data Cleaning
+## Data Cleaning
 
 - The next step is to clean the data to ensure it does not have missing values and drop any if need be. In this case we will check how the data looks using df.info() then in case of missing values, we will do data
 
@@ -175,9 +175,9 @@ As seen above, the average domestic gross earnings are 28.7 Million, we can ther
 - Co-productions: Partner with international production companies to leverage their expertise in foreign markets and potentially gain access to financing and distribution channels i.e we can check another data set to see which studio is doing well and how is their foreign gross in order to consider partnerships.
 - Domestic Market Value: Don't neglect the domestic market entirely. A strong domestic performance can still be valuable and contribute to a film's overall success.
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 
-Descriptive Statistics
+### Descriptive Statistics
 
 In this section, we analyse the mean, median and other measures of central tendencies
 
@@ -674,7 +674,7 @@ plt**.**show()
 
 ![](Aspose.Words.c67f5186-3cfe-4b3b-a4ed-ee3b0f8c76d8.045.jpeg)
 
-Recommendations and actionable insights
+## Recommendations and actionable insights
 
 From the above calculations and visualization, the following conclusions can be drawn
 
