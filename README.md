@@ -18,7 +18,7 @@ This data comes from various data files : [bom.movie_gross.csv.gz and tmdb.csv](
 
 - box office gross(domestic and international)
 
-In [1]: *# import of my modules![ref2]*
+### import your modules
 
 **import** pandas **as** pd 
 
@@ -26,9 +26,9 @@ In [1]: *# import of my modules![ref2]*
 
 **import** matplotlib.pyplot **as** plt **%matplotlib** inline
 
-The next step will be to explore the data sets that we have, we will read from the file bom.movie\_gross.csv.gv and check out the dataFrame that we are working with, our DataFrame will be df
+The next step will be to explore the data sets that we have, we will read from the file bom.movie and check out the dataFrame that we are working with, our DataFrame will be df
 
-In [2]: df  **=**  pd**.** read\_csv ( 'bom.movie\_gross.csv' ) ![ref3]
+In [2]: df  **=**  pd**.** read\_csv ( 'bom.movie\_gross.csv' ) 
 
 df**.**head(10) 
 
@@ -52,7 +52,7 @@ Out[2]: **title studio domestic\_gross foreign\_gross year**
 
 - The next step is to clean the data to ensure it does not have missing values and drop any if need be. In this case we will check how the data looks using df.info() then in case of missing values, we will do data
 
-cleaning In [3]: df **.** info () ![ref4]
+cleaning In [3]: df **.** info () 
 
 <class 'pandas.core.frame.DataFrame'> RangeIndex: 3387 entries, 0 to 3386
 
@@ -116,13 +116,13 @@ Name: foreign\_gross, Length: 3387, dtype: object
 
 In order to conduct any operations on the data, let us check whether it is a float or an integer since we want to do some arithmetic operations. Let's work on the foreign\_gross column statistics
 
-In [8]: print ( df [ 'foreign\_gross' ] **.** dtype ) ![ref4]
+In [8]: print ( df [ 'foreign\_gross' ] **.** dtype ) 
 
 object
 
 The code above means the data has some text and therefore we still need to clean by removing the objects
 
-In [9]: df **.** dropna ( subset **=**[ 'foreign\_gross' ],  inplace **=True** ) ![ref6]
+In [9]: df **.** dropna ( subset **=**[ 'foreign\_gross' ],  inplace **=True** )
 
 print(df['foreign\_gross']**.**dtype) 
 
